@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Effect with Info</title>
+    <style>
+        .container-box {
+            position: relative;
+            padding: 20px;
+            margin-bottom: 20px;
+            /* Espaço entre os boxes */
+            overflow: hidden;
+            border: 1px solid #ccc;
+        }
+
+        .container-box::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: -100%;
+            bottom: 0;
+            width: 100%;
+            background: url('../image/Leonardo_Phoenix_10_Image_is_a_seamless_repeating_pattern_with_3.jpg') no-repeat center center;
+            opacity: 0.6;
+            background-size: cover;
+            transition: right 1s ease;
+            z-index: -1;
+        }
+
+        .container-box:hover::before {
+            right: 0;
+        }
+
+        .info {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 1s ease;
+            z-index: 1;
+        }
+
+        .container-box:hover .info {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container-main">
+        <div id="sumir" class="container-box">
+            <div class="split">
+                <h3 class="top">Dominion 7</h3>
+                <strong class="assunt">O objetivo <a class="link-a" href="#">Dominion 7</a> é criar um espaço onde todos
+                    possam aprender e crescer, independentemente do nível de experiência. Juntos, compartilhamos
+                    conhecimento,
+                    colaboramos em projetos de código aberto e incentivamos a inovação. <a class="link-a"
+                        href="#">Confira
+                        aqui!</a>
+                </strong>
+            </div>
+            <div class="info">Informação Dominion 7</div>
+        </div>
+
+        <div class="container-box">
+            <div class="split">
+                <h3 class="color">Aproveitar-se</h3>
+                <strong class="assunt">Um tesouro de conhecimento para você aproveitar. Só o conhecimento
+                    liberta!</strong>
+                <div class="servidor">
+                    <img src="../image/hospedagem.png" alt="Servidor de mídia">
+                    <strong class="assunt"><a class="link-a" href="../src2/servidor.html">Servidor de mídia D7</a>.
+                        Discursos,
+                        música, arte e muito mais!</strong>
+                </div>
+                <div class="d">
+                    <img class="img-dominion" src="../image/pasta.png" alt="Dominion7">
+                    <strong class="assunt"><a class="link-a" href="#">arquivos da Irmandade das sombras</a>. Vídeos de
+                        trapaças, podcasts, mesas de arco-íris e muito mais!</strong>
+                </div>
+            </div>
+            <div class="info">Informação Aproveitar-se</div>
+        </div>
+
+        <div class="container-box">
+            <div class="split">
+                <h3 class="title">Participasse</h3>
+                <span>Quer participar?</span>
+                <br><br>
+                <span>A várias maneiras!</span>
+                <br><br>
+                <strong class="assunt">A <a class="link-a" href="../src/irmandade.html">Irmandade das sombras</a> quer
+                    ter um
+                    impacto positivo, Trabalhar para causar um impacto positivo na vida dos membros e, potencialmente,
+                    na
+                    sociedade como um todo. Se você gostaria de fazer mais do que apenas olhar, dê uma olhada em nossa
+                    página
+                    <a class="link-a" href="../src2/avisos.html">Participasse</a> para obter ideias!</strong>
+            </div>
+            <div class="info">Informação Participasse</div>
+        </div>
+    </main>
+</body>
+
+</html>

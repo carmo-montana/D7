@@ -1,0 +1,28 @@
+.artigo {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 20px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+.assuntos--div {
+    padding: 20px;
+    margin: 0 20px;
+}
+
+h4 {
+    color: #fff;
+}
+
+.strong {
+    font-size: .8em;
+}
+
+.icons-items {
+    display: flex;
+    flex-direction: column;
+}
