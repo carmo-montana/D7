@@ -9,9 +9,11 @@
 
 
 body {
-    background-image: url('../../image/Leonardo_Phoenix_10_Image_is_a_seamless_repeating_pattern_with_3.jpg');
+    /* background-image: url('../../image/Leonardo_Phoenix_10_Image_is_a_seamless_repeating_pattern_with_3.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+
+    background: linear-gradient(90deg, #000 50%, rgb(6, 20, 35) 100%);
 
 }
 
