@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+body,
+header,
+nav,
+article,
+main footer,
+a,
+li {
+    color: #69c;
+    list-style: none;
+    text-decoration: none;
+
+    font-family: "Geo", serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+    font-family: "Geo", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+body {
+    background-image: url('../../image/Leonardo_Phoenix_10_Image_is_a_seamless_repeating_pattern_with_3.jpg');
+    background-size: cover;
+}
+
+h1,
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 4em;
+    font-weight: bold;
+    color: #a6d5f7;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+ul li a {
+    font-size: 1.2em;
+    color: #a8a8a8;
+}
+
+li a:hover {
+    color: #fff;
+    text-shadow: 2px 2px 2px #69c;
+}
+
+.div-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+p {
+    font-size: 1.2em;
+    color: #bbb;
+}
