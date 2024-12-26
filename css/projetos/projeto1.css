@@ -1,0 +1,213 @@
+.div-nav {
+    display: flex;
+    justify-content: center;
+
+}
+
+.containerNav {
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px #69c solid;
+    /* background: linear-gradient(90deg, #000000 50%, rgb(6, 20, 35) 100%); */
+    width: 600px;
+    height: 60px;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.subNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 0 30px;
+}
+
+/* =================== */
+
+.partePrincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0;
+
+
+}
+
+.layout {
+    border: 1px solid rgb(0, 128, 255);
+    width: 1200px;
+    height: 730px;
+    border-radius: 30px;
+}
+
+.container-input {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+
+
+input:focus {
+    border-color: #0869f0;
+    outline: none;
+    transform: scale(1.05);
+}
+
+#search {
+    color: #ffffff;
+    background-color: rgba(4, 7, 48, 0.6);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 40px;
+    margin-top: 0px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-transition: all 300ms ease-in;
+    -ms-transition: all 300ms ease-in;
+    -o-transition: all 300ms ease-in;
+    transition: all 300ms ease-in;
+}
+
+
+input {
+    margin: 0 auto;
+    vertical-align: middle;
+    overflow: visible;
+    font-family: 'Cascadia';
+    font-weight: 300;
+    display: inline-block;
+    height: 20px;
+    padding: 4px 32px 4px 6px;
+    margin-bottom: 9px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #474646;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    width: 196px;
+    background-color: #fff;
+    border: 1px solid #0A7985;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border linear .2s, box-shadow linear .2s;
+    -o-transition: border linear .2s, box-shadow linear .2s;
+    transition: border linear .2s, box-shadow linear .2s;
+}
+
+/* =============== parte dos conteúdos ============= */
+
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+tbody tr {
+    display: flex;
+    padding: 30px;
+    gap: 0 420px;
+}
+
+tr {
+    /* background: linear-gradient(110deg, #000 50%, rgb(49, 89, 98) 100%); */
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px #69c solid;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 10px;
+
+
+    transition-property: box-shadow, transform;
+    transition-duration: 350ms;
+    transition-timing-function: ease;
+}
+
+tr:is(:hover, :focus) {
+    box-shadow: 4px 8px 10px 4px rgba(50, 190, 255, 0.2);
+    transform: translateY(-8px);
+}
+
+tr {
+    border-bottom: transparent 1px solid;
+    width: 100%;
+}
+
+td {
+    font-family: "Geist Mono", serif;
+    font-size: 1em;
+    color: #bbb;
+}
+
+td a {
+    color: #bbb;
+    font-size: 1.2em;
+}
+
+td a:hover {
+    color: #fff;
+    text-shadow: 2px 2px 2px #69c;
+}
+
+/* tr:hover {
+    background-color: #525151;
+    border-radius: 8px;
+    -webkit-transition: all .4s ease-out;
+    -o-transition: all .4s ease-out;
+    transition: all .4s ease-out;
+
+} */
+
+/* ========== footer ============== */
+
+.container-footer {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.div-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 20vh;
+    /* background: linear-gradient(120deg, #000 50%, #021744 100%); */
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px 8px 0 0;
+
+}
+
+.div-footer p {
+    font-family: "Geist Mono", monospace;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.div-footer a {
+    color: #bbb;
+    font-size: 16px;
+}
+
+.div-footer a:hover {
+    color: #fff;
+    text-shadow: 2px 2px 2px #69c;
+}
+
+.div-footer .imagem {
+    border-radius: 100px;
+}
+
+.imagem {
+    height: 40px;
+    width: 40px;
+}

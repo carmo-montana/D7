@@ -20,12 +20,14 @@ p {
     /* Para Internet Explorer/Edge */
 }
 
+body {
+    margin: 0 400px;
+}
+
 
 p,
 h1 {
     user-select: none;
-
-
 }
 
 h1 {
@@ -42,7 +44,6 @@ h1 {
 h1,
 strong {
     padding: 30px 0;
-    margin: 0 400px;
     text-align: center;
 
     font-family: "VT323", serif;
@@ -72,7 +73,7 @@ p {
     font-family: "Geist Mono", serif;
     font-optical-sizing: auto;
     font-style: normal;
-
+    text-align: center;
 }
 
 li a {
