@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+
+body {
+    /* background-image: url('../../image/Leonardo_Phoenix_10_Image_is_a_seamless_repeating_pattern_with_3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+    background: linear-gradient(90deg, #000 50%, rgb(6, 20, 35) 100%);
+
+}
+
+li a {
+    text-decoration: none;
+}
+
+header,
+a {
+    color: #69c;
+}
+
+ul li {
+    list-style: none;
+    padding: 0 10px;
+}
+
+ul li a {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+ul li a:hover,
+a:focus {
+    text-shadow: 2px 2px 2px rgb(125, 190, 255);
+}
+
+h1 {
+    color: #8a8a8a;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.container--div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    border-bottom: 2px #555151 solid;
+}
+
+.subNav {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+/* ================================= */
+
+.div-perfil {
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 20px;
+}
+
+.foto {
+    width: 150px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.div-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+strong {
+    color: rgb(191, 137, 244);
+    font-size: 2em;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+p {
+    color: #bbb;
+    padding-bottom: 10px;
+}
+
+span {
+    background: rgba(80, 80, 80, 0.6);
+    width: 300px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.informacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding-top: 30px;
+    margin: 0 400px;
+}

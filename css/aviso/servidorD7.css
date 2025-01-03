@@ -239,10 +239,6 @@ a:hover {
 
 
 .container-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     width: 80%;
     max-width: 1000px;
     margin: 0 auto;
