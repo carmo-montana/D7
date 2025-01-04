@@ -85,14 +85,14 @@ padding-top: 20px;
 }
 
 strong {
-    color: rgb(191, 137, 244);
+    color: rgb(130, 197, 255);
     font-size: 2em;
     font-weight: bold;
     padding: 5px 0;
 }
 
 p {
-    color: #bbb;
+    color: #848181;
     padding-bottom: 10px;
 }
 
@@ -108,9 +108,136 @@ span {
 
 .informacao {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: justify;
     padding-top: 30px;
-    margin: 0 400px;
+    margin: 0 200px;
+}
+
+/* ==============Parte principal ================ */
+
+.main--principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-top: 50px;
+    padding: 20px;
+}
+
+
+
+.icons-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+
+
+}
+
+.items-div {
+    background: linear-gradient(110deg, #000 50%, rgb(49, 89, 98) 100%);
+    /* background-color: #565353; */
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 10px;
+
+
+    transition-property: box-shadow, transform;
+    transition-duration: 350ms;
+    transition-timing-function: ease;
+}
+
+.items-div:is(:hover, :focus) {
+    box-shadow: 4px 8px 10px 4px rgba(50, 190, 255, 0.2);
+    transform: translateY(-8px);
+}
+
+.icons-items a {
+
+    width: 40px;
+    height: 40px;
+
+    padding: 4px;
+}
+
+.size {
+    width: 30px;
+    height: 30px;
+}
+
+
+#main {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+}
+
+.div--sites--dominion {
+    background: linear-gradient(110deg, #000 50%, rgb(49, 89, 98) 100%);
+    width: 300px;
+    height: 130px;
+    border-radius: 20px;
+    margin: 10px 0;
+    padding: 10px;
+
+
+    transition-property: box-shadow, transform;
+    transition-duration: 350ms;
+    transition-timing-function: ease;
+}
+
+.div--sites--dominion:is(:hover, :focus) {
+    box-shadow: 2px 8px 10px 2px rgba(48, 165, 255, 0.2);
+    transform: translateY(-8px);
+}
+
+.container-dominion {
+    background: linear-gradient(110deg, #000 50%, rgb(49, 89, 98) 100%);
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    margin: 10px 0;
+    padding: 10px;
+
+
+    transition-property: box-shadow, transform;
+    transition-duration: 350ms;
+    transition-timing-function: ease;
+}
+
+.container-dominion strong {
+    text-align: justify;
+    font-size: .8em;
+    margin: 0 10px;
+}
+
+.container-dominion a {
+    text-decoration: none;
+    color: rgb(153, 91, 228);
+}
+
+.titulo--sites {
+    text-align: center;
+    color: #99c;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.div--icons-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    gap: 0 30px;
+}
+
+.img--grupos {
+    width: 40px;
+    border-radius: 20px;
+}
+
+.img--grupo {
+    width: 40px;
 }
