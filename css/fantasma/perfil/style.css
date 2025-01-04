@@ -98,12 +98,13 @@ p {
 
 span {
     background: rgba(80, 80, 80, 0.6);
-    width: 300px;
+    width: 310px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
+    font-size: .9em;
 }
 
 .informacao {
